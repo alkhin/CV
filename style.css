@@ -1,3 +1,65 @@
 body {
-	background: yellow;
+	background: white;
+}
+#wrap {
+	width: 2245 px;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: center;
+}
+#circle_round {
+	
+	width: 460px;
+    height: 460px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: #006cb4 2px solid;
+	
+}
+#circle_blue {
+	margin: 30px;
+	width: 405px;
+	height: 405px;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #006cb4;
+	
+	/*--
+	top:25px;
+	left:25px;
+	width:50px;
+	height:50px;
+	background:black;
+	border-radius:25px
+	*/
+}
+#left_side{
+	float: left;
+}
+#right-side{
+	float: right;
+}
+
+
+.bold{
+	font-weight: bold;
+}
+#name_here{
+	text-align: center;
+}
+#text_name_here{
+	font-size: 90px; 
+}
+#surname{
+	font-size: 110px;
+	font-weight: bold;
+}
+#graphic_designer{
+	font-size: 30px;
+	font-weight: bold;
+}
+#text_education{
+	color: #006cb4;
+	font-size: 70px;
 }
