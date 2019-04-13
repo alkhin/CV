@@ -86,6 +86,14 @@ body {
 	height: 150px;
 }
 
+.profile_procherk{
+	width: 90px;
+	background: #006cb4;
+	height: 4px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
 .text_profile{
 	color: #006cb4;
 	font-size: 70px;
@@ -101,13 +109,7 @@ body {
 	margin-top: auto;
 }
 
-.profile_procherk{
-	width: 90px;
-	background: #006cb4;
-	height: 4px;
-	margin-left: 10px;
-	margin-top: 30px;
-}
+
 
 .text_education{
 	color: #006cb4;
