@@ -1,65 +1,118 @@
 body {
 	background: white;
 }
-#wrap {
-	width: 2245 px;
-	margin-top: 150px;
-	margin-left: 100px;
-	margin-right: center;
+
+.container {
+	width: 2480 px;
+	padding: 150px;
+	padding-right: 50px;
+	padding-left: 50px;
+	box-shadow: 0 0 2px #cccccc;
 }
-#circle_round {
-	
-	width: 460px;
-    height: 460px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border: #006cb4 2px solid;
-	
+
+.columns-container {
+	background-color: #ecf0f1;
+	border: 2px solid #34495e;
+
 }
-#circle_blue {
-	margin: 30px;
-	width: 405px;
-	height: 405px;
-    -webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	background: #006cb4;
-	
-	/*--
-	top:25px;
-	left:25px;
-	width:50px;
-	height:50px;
-	background:black;
-	border-radius:25px
-	*/
-}
-#left_side{
+
+.column1{
 	float: left;
+	width: 900px;
+	border: 2px solid #34495e;
 }
-#right-side{
+
+.column2{
 	float: right;
 }
 
+.clearfix{
+	clear: both;
+}
+
+.circle {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle_round {
+	width: 465px;
+    height: 465px;
+	border: #336699 2px solid;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle_blue {
+	margin: 30px;
+	width: 405px;
+	height: 405px;
+	border-radius: 50%;
+	background: #336699;
+}
+
+.float_right {
+	float: right;
+}
+
+.float_left {
+	float: left;
+}
 
 .bold{
 	font-weight: bold;
 }
-#name_here{
+.name_here{
 	text-align: center;
 }
-#text_name_here{
+.text_name_here{
 	font-size: 90px; 
 }
-#surname{
+.surname{
 	font-size: 110px;
 	font-weight: bold;
 }
-#graphic_designer{
+.graphic_designer{
 	font-size: 30px;
 	font-weight: bold;
 }
-#text_education{
+
+.profile_icon {
+	background-image: url("images/profile_icon.png");
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 150px;
+}
+
+.text_profile{
 	color: #006cb4;
 	font-size: 70px;
 }
+.ul_education{
+	display: inline;
+}
+.procherc_education{
+	width: 90px;
+	height: 4px;
+	background: #336699;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.profile_procherk{
+	width: 90px;
+	background: #006cb4;
+	height: 4px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.text_education{
+	color: #006cb4;
+	font-size: 70px;
+}
+
+
+
