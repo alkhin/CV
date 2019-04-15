@@ -40,7 +40,7 @@ div.circle {
 
 div.circle_round {
 	width: 465px;
-  height: 465px;
+  	height: 465px;
 	border: #336699 2px solid;
 	border-radius: 50%;
 	margin-left: auto;
@@ -49,8 +49,8 @@ div.circle_round {
 
 div.circle_blue {
 	margin: 30px;
-	width: 405px;
-	height: 405px;
+	width: 408px;
+	height: 408px;
 	border-radius: 50%;
 	background: #336699;
 }
@@ -85,6 +85,14 @@ p.graphic_designer{
 	font-weight: bold;
 }
 
+div.profile_container{
+	margin-top: 164px;
+}
+
+div.profile_text {
+	margin-top: 41px;
+}
+
 div.profile_icon {
 	background-image: url("images/profile_icon.png");
 	background-repeat: no-repeat;
@@ -97,11 +105,11 @@ div.profile_procherk{
 	background: #006cb4;
 	height: 4px;
 	margin-left: 10px;
-	margin-top: 30px;
+	margin-top: 65px;
 	display: flex;
 }
 
-p.text_profile{
+p.profile_text{
 	color: #006cb4;
 	font-size: 70px;
 }
@@ -118,9 +126,11 @@ div.text_education{
 }
 
 div.procherc_education{
-	width: 190px;
-	position: absolute;
-	top: 50%;
+	width:190px;
+	height:4px;
+	/*left: 10%;
+	top: 10%;*/
+	margin: 100px auto auto 4px;
 	background: #336699;
 	/*margin-top: 20px;*/
 	/*vertical-align: middle;*/
