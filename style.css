@@ -2,7 +2,7 @@ body {
 	background: white;
 }
 
-.container {
+div.container {
 	width: 2480 px;
 	padding: 150px;
 	padding-right: 50px;
@@ -10,45 +10,44 @@ body {
 	box-shadow: 0 0 2px #cccccc;
 }
 
-.columns-container {
+div.columns-container {
 	background-color: #ecf0f1;
 	border: 2px solid #34495e;
-
 }
 
-.column1 {
+div.column1 {
 	width: 900px;
 	border: 2px solid #34495e;
 }
-.column2 {
+div.column2 {
 	min-width: 500px;
 	border: 2px solid #34495e;
 	margin-left: 900px;
 }
 
 /* Класс псевдораспорки */
-.clearfix::after {
+div.clearfix::after {
 	clear: both;
 	content: "";
 	display: table;
   }
 
-.circle {
+div.circle {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.circle_round {
+div.circle_round {
 	width: 465px;
-    height: 465px;
+  height: 465px;
 	border: #336699 2px solid;
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.circle_blue {
+div.circle_blue {
 	margin: 30px;
 	width: 405px;
 	height: 405px;
@@ -56,67 +55,77 @@ body {
 	background: #336699;
 }
 
-.float_right {
+div.float_right {
 	float: right;
 }
 
-.float_left {
+div.float_left {
 	float: left;
 }
 
-.bold{
+div.bold{
 	font-weight: bold;
 }
-.name_here{
+
+div.name_here{
 	text-align: center;
 }
-.text_name_here{
+
+p.text_name_here{
 	font-size: 90px; 
 }
-.surname{
+
+p.surname{
 	font-size: 110px;
 	font-weight: bold;
 }
-.graphic_designer{
+
+p.graphic_designer{
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.profile_icon {
+div.profile_icon {
 	background-image: url("images/profile_icon.png");
 	background-repeat: no-repeat;
 	width: 160px;
 	height: 150px;
 }
 
-.profile_procherk{
-	width: 90px;
+div.profile_procherk{
+	width: 190px;
 	background: #006cb4;
 	height: 4px;
 	margin-left: 10px;
 	margin-top: 30px;
+	display: flex;
 }
 
-.text_profile{
+p.text_profile{
 	color: #006cb4;
 	font-size: 70px;
 }
-.ul_education{
-	display: inline;
+
+div.education {
+  display: inline-block;
+  vertical-align: middle;
+  background: #9F9;}
+
+
+div.text_education{
+	color: #006cb4;
+	font-size: 70px;
 }
-.procherc_education{
-	width: 90px;
-	height: 4px;
+
+div.procherc_education{
+	width: 190px;
+	position: absolute;
+	top: 50%;
 	background: #336699;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
+	/*vertical-align: middle;*/
 }
 
-
-
-.text_education{
-	color: #006cb4;
-	font-size: 70px;
-}
 
 
 
