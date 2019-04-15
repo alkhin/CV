@@ -16,19 +16,22 @@ body {
 
 }
 
-.column1{
-	float: left;
+.column1 {
 	width: 900px;
 	border: 2px solid #34495e;
 }
-
-.column2{
-	float: right;
+.column2 {
+	min-width: 500px;
+	border: 2px solid #34495e;
+	margin-left: 900px;
 }
 
-.clearfix{
+/* Класс псевдораспорки */
+.clearfix::after {
 	clear: both;
-}
+	content: "";
+	display: table;
+  }
 
 .circle {
 	text-align: center;
@@ -105,8 +108,7 @@ body {
 	width: 90px;
 	height: 4px;
 	background: #336699;
-	margin-bottom: auto;
-	margin-top: auto;
+	margin-top: 20px;
 }
 
 
